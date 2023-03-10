@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".recfragment"
+    android:layout_gravity="bottom"
+    >
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="155dp"
+        android:layout_marginBottom="185dp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        >
+
+        <ImageButton
+            android:id="@+id/darkGreenButton"
+            android:onClick="goToReminder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="643dp"
+            android:background="@null"
+            android:src="@drawable/darkgreen_button" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="205dp"
+            android:layout_marginTop="643dp"
+            android:background="@null"
+            android:src="@drawable/lightgreen_button" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="656dp"
+            android:text="Reminder"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="656dp"
+            android:text="Medicine List"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+    </RelativeLayout>
+
+
+<!--    <Button-->
+<!--        android:id="@+id/addMedicine"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/recview"-->
+<!--        android:layout_marginLeft="155dp"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        android:gravity="center_horizontal"-->
+<!--        android:text="+"-->
+<!--        android:textSize="30sp" />-->
+
+</RelativeLayout>

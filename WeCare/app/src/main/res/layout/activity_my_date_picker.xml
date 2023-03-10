@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyDatePicker"
+    android:background="@color/color_primary"
+    >
+
+
+<!--    <View-->
+<!--        android:layout_width="fill_parent"-->
+<!--        android:layout_height="fill_parent"-->
+<!--        android:background="#33CA7F"></View>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/title"-->
+<!--        android:layout_width="232dp"-->
+<!--        android:layout_height="62dp"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_marginLeft="32dp"-->
+<!--        android:layout_marginTop="90dp"-->
+<!--        android:gravity="center_horizontal|top"-->
+<!--        android:text="Select Date"-->
+<!--        android:textAppearance="@style/title" />-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:gravity="top"
+            android:src="@drawable/greenrectangle" />
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="40dp"
+            android:gravity="top"
+            android:src="@drawable/selectdateandtime" />
+    </RelativeLayout>
+
+<!--    <ImageView-->
+<!--        android:layout_width="250dp"-->
+<!--        android:layout_height="100dp"-->
+<!--    android:layout_marginLeft="30dp"-->
+<!--        android:src="@drawable/selectdateandtime"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        />-->
+
+    <ImageButton
+        android:id="@+id/buttonSetDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/darkgreen_donebutton" />
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <DatePicker
+            android:id="@+id/datePicker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="50dp"
+            android:background="@color/white"
+            android:theme="@style/Widget.AppCompat.ActionBar" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+

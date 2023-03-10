@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/wrapper"
+    android:orientation="vertical"
+    tools:context=".MedicineList">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:gravity="top"
+            android:src="@drawable/greenrectangle" />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="40dp"
+        android:gravity="top"
+        android:src="@drawable/medicationlist" />
+    </RelativeLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="155dp"
+        android:layout_marginBottom="145dp" />
+
+<!--    <Button-->
+<!--        android:id="@+id/addMedicine"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:layout_marginTop="-60dp"-->
+<!--        android:layout_below="@id/recview"-->
+<!--        android:text="+"-->
+<!--        android:textSize="30sp" />-->
+
+    <Button
+        android:id="@+id/addMedicine"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="613dp"
+        android:text="+"
+        android:textSize="30sp" />
+
+
+
+<!--    <ImageButton-->
+<!--        android:id="@+id/addMedicine"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="@null"-->
+<!--        android:src="@drawable/greenaddbutton"-->
+<!--        android:layout_below="@id/recview"-->
+<!--        android:color="@color/white"-->
+<!--        android:radius="300dp"-->
+<!--        android:layout_marginLeft="285dp"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        android:layout_marginBottom="20dp"-->
+<!--    />-->
+
+
+
+
+</RelativeLayout>

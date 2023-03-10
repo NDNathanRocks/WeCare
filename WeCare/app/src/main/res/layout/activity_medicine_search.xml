@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:gravity="top"
+        android:src="@drawable/greenrectangle" />
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="40dp"
+        android:gravity="top"
+        android:src="@drawable/search" />
+
+    <AutoCompleteTextView
+        android:id="@+id/atv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginRight="16dp"
+        android:hint="Medicine Name"
+        android:minHeight="48dp"
+        tools:ignore="DuplicateClickableBoundsCheck" />
+
+    <EditText
+        android:id="@+id/atv2"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginRight="16dp"
+        android:hint="Medicine Amount"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="360dp"
+        android:insetLeft="135dp"
+        android:text="Add" />
+
+
+</RelativeLayout>

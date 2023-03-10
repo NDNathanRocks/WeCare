@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "312866225467",
+    "firebase_url": "https://wecaredbsystem-default-rtdb.firebaseio.com",
+    "project_id": "wecaredbsystem",
+    "storage_bucket": "wecaredbsystem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:312866225467:android:a89e54d8c94035b9d9cb1e",
+        "android_client_info": {
+          "package_name": "com.example.wecare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "312866225467-lvejtmq992ehd7n9ib8u9kq7g333s286.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD63unokHzMPAD6t2YaGFiwMG_Dg7Pk5aw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "312866225467-lvejtmq992ehd7n9ib8u9kq7g333s286.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
