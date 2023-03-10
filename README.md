@@ -54,9 +54,13 @@ This way we can keep our own pace during the devolopment of the app and still wo
 ### 5. Guidelines
 
 Step 1: Sign Up/Login in the application (WeCare)
+
 Step 2: Add Medicine into Medicine List using Medicine Search
+
 Step 3: View Medicine description to add or remove pill count as well as remove medicine from the list if needed
+
 Step 4: Go to Reminder Page and modify the list by adding or deleting existing reminders
+
 Step 5: Set date and time for when you want the reminder to ring (done after adding reminder on reminder page)
 
 
